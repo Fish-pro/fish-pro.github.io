@@ -1,6 +1,6 @@
 ---
-layout: archive-taxonomies
-permalink: /tags/
+layout: tags
 title: Tags
-type: tags
+permalink: /tags/
+robots: noindex
 ---

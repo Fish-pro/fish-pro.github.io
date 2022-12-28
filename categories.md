@@ -1,6 +1,6 @@
 ---
-layout: archive-taxonomies
-permalink: /categories/
+layout: categories
 title: Categories
-type: categories
+permalink: /categories/
+robots: noindex
 ---
