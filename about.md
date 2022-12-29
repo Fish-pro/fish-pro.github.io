@@ -4,7 +4,6 @@ title: About Me
 ---
 Keep learning, actively participate in the community contribution
 
-## About Me
 - 👋 Hi, I’m @Fish-pro
 - 👀 I'm [Istio](https://github.com/istio/istio) Community Member
 - 🌱 I'm [Kubernetes](https://github.com/kubernetes/kubernetes) Community Member
