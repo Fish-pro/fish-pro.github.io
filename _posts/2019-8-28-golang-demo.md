@@ -1,7 +1,7 @@
 ---
 layout: post
-title: golang语言学习示例笔记
-author: York
+title: Golang demo
+author: Fish-pro
 tags:
 - go
 - golang
