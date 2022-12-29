@@ -1,8 +1,11 @@
 ---
 layout: page
-title: About
+title: About Me
 ---
+Keep learning, actively participate in the community contribution
 
-**Not Pure Poole** is a simple, beautiful, and powerful Jekyll theme for blogs. It is built on [Poole](https://github.com/poole/poole) and [Pure](https://purecss.io/).
-
-For more information about Not Pure Poole, please browse the [README](https://github.com/vszhub/not-pure-poole) file.
+## About Me
+- 👋 Hi, I’m @Fish-pro
+- 👀 I'm [Istio](https://github.com/istio/istio) Community Member
+- 🌱 I'm [Kubernetes](https://github.com/kubernetes/kubernetes) Community Member
+- 🌱 I'm [Karmada](https://github.com/karmada-io/karmada) Community Member
