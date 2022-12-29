@@ -1,7 +1,7 @@
 # Setup
-title: Not Pure Poole
-description: A simple, beautiful, and powerful Jekyll theme for blogs
-url: https://vszhub.github.io
+title: York(@Fish-pro) Blog
+description: Aspire to be an excellent software engineer
+url: https://fish-pro.github.io
 avatar: /avatar.jpeg
 paginate: 5
 permalink: pretty
@@ -29,14 +29,14 @@ exclude:
 
 # Optimize Jekyl SEO Tag
 twitter:
-  username: vszhub
+  username: FishPro5
   card: summary
 logo: logo.png
 social:
-  name: Songzi Vong
+  name: Fish-pro
   links:
-    - https://twitter.com/vszhub
-    - https://github.com/vszhub
+    - https://twitter.com/FishPro5
+    - https://github.com/Fish-pro
 google_site_verification: xxxxx
 lang: en
 
@@ -54,6 +54,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: Fish-pro
+  url: https://github.com/Fish-pro/
+  email: york1024@163.com
