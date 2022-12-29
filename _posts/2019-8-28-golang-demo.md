@@ -3297,20 +3297,20 @@ func main() {
 
 	//2.创建子类的对象
 	s1 := Student{Person{"李四", 17}, "云南大学"}
-	fmt.Println(s1) //{{李四 17} 云南大学}
+	fmt.Println(s1) 
 
 	s2 := Student{Person: Person{name: "rose", age: 19}, school: "北京大学"}
-	fmt.Println(s2) //{{rose 19} 北京大学}
+	fmt.Println(s2) 
 
 	var s3 Student
 	s3.Person.name = "王五"
 	s3.Person.age = 19
 	s3.school = "清华大学"
-	fmt.Println(s3) //{{王五 19} 清华大学}
+	fmt.Println(s3) 
 
 	s3.name = "Ruby"
 	s3.age = 16
-	fmt.Println(s3) //{{Ruby 16} 清华大学}
+	fmt.Println(s3) 
 
 	fmt.Println(s1.name, s1.age, s1.school) //李四 17 云南大学
 	fmt.Println(s2.name, s2.age, s2.school) //rose 19 北京大学
