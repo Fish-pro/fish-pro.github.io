@@ -466,7 +466,7 @@ func (p *TaintToleration) Filter(
 		return framework.NewResult(framework.Success)
 	}
 
-	return framework.NewResult(framework.Unschedulable, fmt.Sprintf("cluster(s) had untolerated taint {%s}", taint.ToString()))
+	return framework.NewResult(framework.Unschedulable, fmt.Sprintf("cluster(s) had untolerated taint %s", taint.ToString()))
 }
 ```
 
