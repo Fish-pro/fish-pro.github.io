@@ -51,7 +51,7 @@ MetalLB是一个为裸机Kubernetes集群提供负载均衡服务的工具，可
               +----------v-----------+
               |                      |
               | Ingress-Nginx        |
-              |    (Ingress Ctrl)     |
+              |    (Ingress Ctrl)    |
               |                      |
               +----------+-----------+
                          |
