@@ -1,5 +1,11 @@
-# 深入理解Kubernetes：组件逻辑、能力与源码分析
-
+---
+layout: post
+title: 深入理解Kubernetes：组件逻辑、能力与源码分析
+author: Fish-pro
+tags:
+- kubernetes
+date: 2022-09-22 12:56 +0800
+---
 Kubernetes作为领先的容器编排平台，其核心组件通过紧密协作，为用户提供了强大的自动化、扩展性和可移植性。在深入理解Kubernetes之前，我们将分别探讨其核心组件的逻辑与能力，以及部分源码分析。
 
 ## Kubernetes核心组件逻辑与能力
