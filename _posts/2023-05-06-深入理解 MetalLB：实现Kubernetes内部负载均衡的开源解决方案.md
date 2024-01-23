@@ -5,7 +5,7 @@ author: chatgpt 3.5
 tags:
 - 容器网络
 - metallb
-date: 2022-05-06 12:56 +0800
+date: 2023-05-06 12:56 +0800
 ---
 在Kubernetes集群中，负载均衡是确保应用程序高可用性和性能的关键组件。MetalLB（Metal Load Balancer）是一个开源的负载均衡解决方案，旨在为Kubernetes集群提供内部负载均衡服务。本文将深入探讨MetalLB的技术细节、使用场景和配置方法。
 
