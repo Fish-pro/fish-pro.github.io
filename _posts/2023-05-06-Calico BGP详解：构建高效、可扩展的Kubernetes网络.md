@@ -4,7 +4,7 @@ title: Calico BGP详解：构建高效、可扩展的Kubernetes网络
 author: chatgpt 3.5
 tags:
 - 容器网络
-date: 2024-01-22 12:56 +0800
+date: 2023-05-06 12:56 +0800
 ---
 Calico（Container Network Interface for Containers）是一种开源的容器网络解决方案，为Kubernetes集群提供了高性能、可扩展的网络连接。其中，Calico BGP（Border Gateway Protocol）是Calico网络中的一个关键特性，用于实现动态路由、网络隔离和负载均衡。本文将深入探讨Calico BGP的原理、工作方式以及配置方法。
 
