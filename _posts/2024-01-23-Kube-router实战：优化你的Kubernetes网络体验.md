@@ -13,7 +13,6 @@ date: 2024-01-23 10:16 +0800
 首先，我们将介绍如何部署Kube-router。以下是一个简单的DaemonSet配置示例：
 
 ```yaml
-Copy code
 apiVersion: apps/v1
 kind: DaemonSet
 metadata:
@@ -36,14 +35,15 @@ spec:
         securityContext:
           privileged: true
 # ...（其他配置参数根据需求添加）...
+```
+
 通过kubectl apply -f kube-router.yaml命令，可以轻松将Kube-router部署到Kubernetes集群中。
 
-配置网络模式
+## 配置网络模式
 
 Kube-router支持多种网络模式，包括overlay、routed、host等。根据你的需求选择适当的网络模式，以下是一个配置示例：
 
-yaml
-Copy code
+```yaml
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -60,6 +60,7 @@ data:
       natOutgoing: true
       preallocatedAllocations: true
 ```
+
 通过配置ConfigMap，并更新Kube-router的DaemonSet，你可以快速切换和优化网络模式。
 
 ## 启用BGP路由
@@ -67,7 +68,6 @@ data:
 Kube-router的BGP路由支持使其在大规模集群中表现卓越。以下是一个简单的BGP配置示例：
 
 ```yaml
-Copy code
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -89,7 +89,6 @@ data:
 Kube-router集成了IPVS，为Kubernetes服务提供高性能的负载均衡。以下是一个简单的IPVS配置示例：
 
 ```yaml
-Copy code
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -107,7 +106,6 @@ data:
 Kube-router充分支持Kubernetes的网络策略，通过以下配置示例，你可以定义细粒度的网络规则：
 
 ```yaml
-Copy code
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
